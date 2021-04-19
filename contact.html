@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Application d'enregistrement de copie coller"
+    />
+    <!--lien favicon-->
+    <link rel="icon" type="image/png" href="./images/logo.svg" />
+    <!--Lien icon-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!--lien style.css-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Copycol</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-title">Copycol</div>
+      <div class="navbar-logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <div class="navbar-cont">
+        <!-- mobile -->
+        <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-links">Accueil</a>
+          </li>
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-links">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="contact">
+        <form class="formulaire">
+          <h1>Contact</h1>
+          <div id="nom">
+            <label for="name"> Nom</label>
+            <input type="text" id="name" name="user-name">
+          </div>
+          <div id="tel">
+            <label for="phone"> Téléphone</label>
+            <input type="phone" id="phone" name="phone">
+          </div>
+          <div id="email">
+            <label for="mail">Email</label>
+            <input type="mail" id="mail" name="mail">
+          </div>
+          <div id="mess">
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message" rows="20" cols="70"></textarea>
+        </div>
+        <button class="btn"> ENVOYER</button>
+
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img src="./images/logo.svg" alt="logo" />  
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i> 
+    </footer>
+    <script src="main.js"></script>
+  </body>
+  </html>
+  
