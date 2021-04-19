@@ -225,12 +225,13 @@ footer {
 
 footer img {
   padding-right: 500px;
+  width: 32%;
 }
 
 footer i {
-  font-size: 50px;
+  font-size: 30px;
   color: #6173ff;
-  padding-left: 100px;
+  padding-left: 200px;
 }
 
 
