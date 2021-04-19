@@ -207,8 +207,9 @@ svg {
   justify-content: space-between;
   height: 50px;
   margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-bottom: 100px;
+  
+
 }
 
 /*footer*/
@@ -225,11 +226,11 @@ footer {
 footer img {
   padding-right: 500px;
 }
+
 footer i {
   font-size: 50px;
   color: #6173ff;
   padding-left: 100px;
-
 }
 
 
@@ -429,13 +430,24 @@ footer i {
     width: 80%;
   }
 
+  .logo-partenaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
   .logo {
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
     height: 30px;
+    width: 150px;
     margin-top: 50px;
     margin-left:100px;
     margin-right:100px;
+    margin-bottom: 500px;
   }
 
   .logo img {
@@ -444,6 +456,20 @@ footer i {
 
   /*footer*/
 
+  footer img {
+    padding-right: 0px;
+    width: 15%;
+  }
+
   
+  footer i {
+    font-size: 25px;
+    padding-left: 40px;
+  }
+
+
+
+
+
 
 }
