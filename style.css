@@ -197,6 +197,11 @@ svg {
 
 /*section logos*/
 
+.img-ordi {
+  display: none;
+}
+
+
 .logo {
   display: flex;
   justify-content: space-between;
@@ -342,7 +347,7 @@ svg {
     grid-template-columns: 1fr;
     grid-template-rows: 60px repeat(5, 1fr);
     column-gap: 0px;
-    row-gap: 20px;
+    row-gap: 30px;
     padding-right: 10px;
     padding-left: 10px; 
   }
@@ -391,12 +396,27 @@ svg {
   
 /*section logos*/
 
+.img-ordi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; 
+}
+
+.img-ordi img {
+  width: 80%;
+}
+
 .logo {
   display: flex;
   flex-direction: column;
+  height: 30px;
+  margin-top: 50px;
+  margin-left:100px;
+  margin-right:100px;
+}
 
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+.logo img {
+  padding-bottom: 80px;
 }
 }
