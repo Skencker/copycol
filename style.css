@@ -537,7 +537,53 @@ textarea {
   .contact {
     height: 120vh;
   }
-
-
 }
+
+/*Modal-del*/
+
+section a {
+  text-decoration: none;
+  color: white;
+}
+
+.masque {
+  background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; 
+  height: 100%;
+	opacity: .80;
+	z-index: 9999
+}
+
+.modal{
+	display: none; /*--masqué par défaut--*/
+	background: #fff;
+	padding: 20px;
+  border-radius: 20px;
+	font-size: 1.2em;
+	position: absolute;
+  top: 20%;
+  left: 25%;
+	z-index: 99999;
+  width: 50%;
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal .btn {
+  margin: 20px;
+}
+
+.modal h2 {
+  margin: 50px;
+  color: #4c545d;
+}
+
+.modal i {
+  align-self:flex-end;
+  color: #4c545d;
+  cursor: pointer;
+}
+
 
