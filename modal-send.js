@@ -8,24 +8,22 @@ menu.addEventListener('click', function(){
   menuLinks.classList.toggle('active');
 })
 
-/**modal- */
-
-const btn_del = document.querySelector('.modal-btn-del');
-const modal_del = document.querySelector('.modal-del');
+const modal_send = document.querySelector('.modal-send');
+const btn_send =document.querySelector('.modal-btn-send');
 const close = document.querySelector('.close');
 const body = document.querySelector('body');
 const svg = document.querySelector('svg');
 const form = document.querySelector('form')
 
-btn_del.addEventListener('click', () => {
-  modal_del.style.display ='flex';
+btn_send.addEventListener('click', (e) => {
+  e.preventDefault();
+  modal_send.style.display ='flex';
   body.classList.toggle('masque');
-  svg.style.display = 'none';
+  form.style.opacity = '0';
 })
 
 close.addEventListener('click', () => {
-  modal_del.style.display = "none";
+  modal_send.style.display = "none";
   body.classList.toggle('masque');
-  svg.style.display = 'flex';
+  form.style.opacity = '1';
 })
-

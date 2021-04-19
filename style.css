@@ -408,15 +408,7 @@ footer i {
   .avantage h3 {
     text-align: center;
   }
-  
-  
-  /*elipse verte*/
-
-  svg {
-    display: none;
-  }
-
-    
+   
   /*section logos*/
 
   .img-ordi {
@@ -555,7 +547,7 @@ section a {
 	z-index: 9999
 }
 
-.modal{
+.modal-del{
 	display: none; /*--masqué par défaut--*/
 	background: #fff;
 	padding: 20px;
@@ -571,19 +563,93 @@ section a {
   align-items: center;
   justify-content: center;
 }
-.modal .btn {
+.modal-del .btn {
   margin: 20px;
 }
 
-.modal h2 {
+.modal-del h2 {
   margin: 50px;
   color: #4c545d;
 }
 
-.modal i {
+.modal-del i {
   align-self:flex-end;
   color: #4c545d;
   cursor: pointer;
+}
+
+/*modal envoye formulaire contact*/
+
+.modal-send{
+	display: none; /*--masqué par défaut--*/
+	background: #fff;
+	padding: 20px;
+  border-radius: 20px;
+	font-size: 1em;
+	position: absolute;
+  top: 20%;
+  left: 25%;
+	z-index: 99999;
+  width: 50%;
+  height: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-send .btn {
+  margin: 20px;
+}
+
+.modal-send h2 {
+  margin: 50px;
+  color: #4c545d;
+}
+
+.modal-send i {
+  align-self:flex-end;
+  color: #4c545d;
+  cursor: pointer;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .modal-send {
+    font-size: 0.5rem;
+    height: 12%;
+  }
+  .modal-send h2 {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .modal-del{
+    font-size: 1.2em;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-del .btn {
+    margin: 20px;
+  }
+  
+  .modal-del h2 {
+    margin: 20px;
+    color: #4c545d;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  .modal-del i {
+    align-self:flex-end;
+    color: #4c545d;
+    cursor: pointer;
+  }
+ 
+
 }
 
 

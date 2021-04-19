@@ -62,9 +62,16 @@
             <label for="msg">Message :</label>
             <textarea id="msg" name="user_message" rows="20" cols="70"></textarea>
         </div>
-        <button class="btn"> ENVOYER</button>
+        <button class="btn"><a rel="modal-send" class="modal-btn-send">ENVOYER</a> </button>
+      </form>
 
-        </form>
+          <!--Modal telechargement content-->
+
+          <div id="modal-send" class="modal-send">
+            <i class="fas fa-times close"></i>
+            <h2>Formulaire de contact envoyé</h2>
+          </div>
+          
       </section>
     </main>
     <footer>
@@ -73,7 +80,7 @@
       <i class="fab fa-twitter"></i>
       <i class="fab fa-instagram"></i> 
     </footer>
-    <script src="main.js"></script>
+    <script src="modal-send.js"></script>
   </body>
   </html>
   
