@@ -23,7 +23,5 @@ btn_send.addEventListener('click', (e) => {
 })
 
 close.addEventListener('click', () => {
-  modal_send.style.display = "none";
-  body.classList.toggle('masque');
-  form.style.opacity = '1';
+  document.location.href='index.html'
 })

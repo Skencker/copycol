@@ -648,8 +648,18 @@ section a {
     color: #4c545d;
     cursor: pointer;
   }
- 
 
 }
 
+/*bouton up version mobile*/
 
+@media screen and (max-width: 375px) {
+
+  .btn-up i {
+    font-size: 30px;
+    color: #6173ff;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+}
