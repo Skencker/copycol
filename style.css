@@ -230,6 +230,10 @@ footer i {
   padding-left: 200px;
 }
 
+.btn-up i{
+  opacity: 0;
+}
+
 
 @media screen and (max-width: 960px) {
   /*NAVBAR*/
@@ -460,6 +464,20 @@ footer i {
   }
 }
 
+/*bouton up version mobile*/
+
+@media screen and (max-width: 375px) {
+
+  .btn-up i {
+    font-size: 30px;
+    color: #6173ff;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    opacity: 1;
+  }
+}
+
 /*formulaire de contact*/
 
 .contact {
@@ -512,7 +530,6 @@ form .btn {
 }
 textarea {
   border-radius: 10px;
-  
 }
 
 @media screen and (max-width: 960px) {
@@ -651,15 +668,3 @@ section a {
 
 }
 
-/*bouton up version mobile*/
-
-@media screen and (max-width: 375px) {
-
-  .btn-up i {
-    font-size: 30px;
-    color: #6173ff;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-  }
-}
