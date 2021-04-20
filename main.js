@@ -15,17 +15,20 @@ const modal_del = document.querySelector('.modal-del');
 const close = document.querySelector('.close');
 const body = document.querySelector('body');
 const svg = document.querySelector('svg');
-const form = document.querySelector('form')
+const form = document.querySelector('form');
+const img = document.querySelector('.img-tel')
 
 btn_del.addEventListener('click', () => {
   modal_del.style.display ='flex';
   body.classList.toggle('masque');
   svg.style.display = 'none';
+  img.style.opacity = '0'
 })
 
 close.addEventListener('click', () => {
   modal_del.style.display = "none";
   body.classList.toggle('masque');
   svg.style.display = 'flex';
+  img.style.opacity = '1'
 })
 
